@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width", initial-scale="1.0">
+        <title>contact</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1f15657771.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images2/logo2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="administration.html">ADMINISTRATION</a></li>
+                        <li><a href="academics.html">ACADEMICS</a></li>
+                        <li><a href="department.html">DEPARTMENTS</a></li>
+                        <li><a href="library.html">LIBRARY</a></li>
+                        <li><a href="sports.html">SPORTS</a></li>
+                        <li><a href="clubs.html">CLUBS</a></li>
+                        <li><a href="sports.html">ALUMNI</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+            <h1>Contact Us</h1>
+        </section>
+
+<!--contact us-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7683566401447!2d35
+    .29167231431898!3d0.2867403641493108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780f5ec5a9f9d87%3A0x159cb96600e
+    6f677!2sMoi%20University%20Main%20Campus%20Eldoret!5e0!3m2!1sen!2ske!4v1649068171504!5m2!1sen!2ske" width="600" 
+    height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="contact-row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Webuye Road, Ebby Towers</h5>
+                    <p>Kitale, Kenya</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+254 798483145</h5>
+                    <p>Monday to Friday, 8AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@stanthonykitale.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form_handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!----Footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a distinguished school aimed at providing quality education through holistic growth of the boy-child in order to nurture men of integrity and intellect who will be agents of positive change.</p>
+
+    
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>COPYRIGHT <i class="fa fa-copyright"></i>2022 SABHS, All rights Reserved
+    </p>
+</section>
+</body>
+</html>

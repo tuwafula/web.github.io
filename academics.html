@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width", initial-scale="1.0">
+        <title>Academics</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1f15657771.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images2/logo2.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="administration.html">ADMINISTRATION</a></li>
+                        <li><a href="academics.html">ACADEMICS</a></li>
+                        <li><a href="department.html">DEPARTMENTS</a></li>
+                        <li><a href="library.html">LIBRARY</a></li>
+                        <li><a href="sports.html">SPORTS</a></li>
+                        <li><a href="clubs.html">CLUBS</a></li>
+                        <li><a href="sports.html">ALUMNI</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+            <h1>ACADEMICS</h1>
+        </section>
+<section class="sports">
+    <div class="academics-row">
+        <div class="academics-col">
+             <h1>Best Performance</h1>
+             <p style="color:white;">The school is among the best performing high schools in the country academically, 
+                ranked amongst the top 10 positions every year. Bush holds the country record for most consecutive years holding the pole position in the national exams (1960–1985). In the K.C.S.E results announced in 2011, the school emerged top in the country. In that same year, 
+                the school had more than 100 students scoring a mean grade of A in the national exams.</p>     
+        </div>
+        <div class="academics-col">
+            <h1>Always at the top</h1>
+            <p style="color:white">Every year, over 98% of the school’s graduates get admission to Kenyan 
+                universities. Students from the school also proceed to join Ivy League Universities, such as Harvard, Yale and Brown University. Many attend other prestigious American universities like Stanford University, Duke University, Williams College and MIT. Others go on to attend universities in 
+                Australia, China,Japan, Malaysia, South Africa, the United Kingdom and other countries</p>
+        </div>
+    </div>  
+</section>
+<!----Footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a distinguished school aimed at providing quality education through holistic growth of the boy-child in order to nurture men of integrity and intellect who will be agents of positive change.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>COPYRIGHT <i class="fa fa-copyright"></i>2022 SABHS, All rights Reserved
+    </p>
+</section>
+</body>
+<script>
+    const sportsItems = document.querySelectorAll('.sports-item-wrapper')
+
+sportsItems.forEach(sportsItem => {
+    sportsItem.addEventListener('mouseover', () => {
+        sportsItem.childNodes[1].classList.add('image-darken');
+    })
+    sportsItem.addEventListener('mouseout', () => {
+        sportsItem.childNodes[1].classList.remove('image-darken');
+    })
+})
+</script>
+</html>
